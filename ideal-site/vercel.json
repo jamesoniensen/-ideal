@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "ideal-equipe-de-vendas-online",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "env": {
+    "DATABASE_URL": "file:./dev.db",
+    "NEXTAUTH_SECRET": "sua-chave-secreta-aqui",
+    "NEXTAUTH_URL": "https://idealequipedevendasonline.vercel.app"
+  }
+}
