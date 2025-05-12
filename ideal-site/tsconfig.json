@@ -16,7 +16,8 @@
     "incremental": true,
     "baseUrl": "./ideal-site",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/components/*": ["components/*"]
     },
     "plugins": [
       {
