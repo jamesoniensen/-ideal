@@ -14,11 +14,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": "./ideal-site",
-    "paths": {
-      "@/*": ["./*"],
-      "@/components/*": ["components/*"]
-    },
+ "baseUrl": ".",
+"paths": {
+  "@/*": ["./ideal-site/*"],
+  "@/components/*": ["./ideal-site/components/*"]
+}
     "plugins": [
       {
         "name": "next"
