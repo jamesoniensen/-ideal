@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import Carousel3D from '@/components/Carousel3D';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Carousel3D from '../components/Carousel3D';
 
 export default function Home() {
   return (
